@@ -1,0 +1,14 @@
+.sfbotiframe { border: 0px; border-radius: 10px; overflow: hidden; }
+
+.sfbotframe { border-top: 0px; width: 25em; height: 28em; border-radius: 10px; border-radius: 5px; overflow: hidden; opacity: 0.92; }
+.sfbotframe:hover { opacity: 1; }
+
+.wc-adaptive-card { width: 215px; }
+
+.wc-header { background: #A95262; }
+
+#close_icon { bottom: 26.5em; }
+
+.wc-message-from-me .wc-message-content { background-color: #A95262; }
+
+.wc-message-from-me svg.wc-message-callout path { fill: #A95262; }
