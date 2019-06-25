@@ -1,14 +1,77 @@
-.sfbotiframe { border: 0px; border-radius: 10px; overflow: hidden; }
+body { margin: 0px; background-color: #fefefe; }
 
-.sfbotframe { border-top: 0px; width: 25em; height: 28em; border-radius: 10px; border-radius: 5px; overflow: hidden; opacity: 0.92; }
-.sfbotframe:hover { opacity: 1; }
+header {background-color: #00549a; opacity: 1; }
+h4 { margin: 10px; }
+
+footer {
+	background-color: #000;
+    left: 13%;
+    color: #fff;
+	width: 74%;
+	opacity: 0.8;
+}
+
+body .wc-app, .wc-app button, .wc-app input, .wc-app textarea {
+    font-family: "Segoe UI", sans-serif;
+    font-size: 14px;
+}
+
+.sfbotiframe { border: 0px; border-radius: 0px; overflow: hidden; }
+
+.sfbotframe { border: 4px solid #00549a; width: 22em; height: 25em; border-radius: 0px; overflow: hidden; }
 
 .wc-adaptive-card { width: 215px; }
 
-.wc-header { background: #A95262; }
+.wc-header { background: #00549a; font-size: 18px; padding: 8px; }
 
-#close_icon { bottom: 26.5em; }
+#close_icon { bottom: 23.6em; }
 
-.wc-message-from-me .wc-message-content { background-color: #A95262; }
+.wc-message-from-me .wc-message-content { background-color: #00549a; }
 
-.wc-message-from-me svg.wc-message-callout path { fill: #A95262; }
+.wc-message-from-me svg.wc-message-callout path { fill: #00549a; }
+
+.wc-message-from-bot .wc-message-content {
+    border-radius: 0px;
+    padding: 0px;
+}
+
+.wc-card {
+    border: 0px;
+}
+
+.wc-message-content {
+    border-radius: 0px;
+    box-shadow: none;
+    padding: 8px;
+}
+
+.wc-adaptive-card {
+    width: 100%;
+}
+
+.wc-card button {
+    background-color: transparent;
+    color: #00549a;
+    min-height: 32px;
+    width: 100%;
+    padding: 0 0 0 30px;
+    border: 0px;
+    text-align: left;
+    text-decoration: none;
+    background: url(../images/guideBtn.png) no-repeat 0 6px;
+}
+
+.wc-card button:hover, .wc-card button:focus, .wc-card button:active {
+    text-decoration: underline;
+	background-color: transparent;
+	outline: none;
+	border: 0px;
+    color: #00549a;
+}
+
+.wc-app ::-webkit-scrollbar {
+    width: 6px;
+}
+
+.ac-image img { max-width: 128px; max-height: 128px; }
+
