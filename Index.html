@@ -36,13 +36,16 @@
         <script src="https://cdn.botframework.com/botframework-webchat/latest/webchat.js"></script>
         <script>
           BotChat.App({
-            directLine: { secret: 'L47O7B5FMmo.zMQLJkQJ8CMF0J_FrYJlKfQPeMWN2P-YG9japIwrJ2I' },
-            user: { id: 'User' },
-            bot: { id: '70001' },
-            resize: 'detect',
-               botAvatarInitials: 'GIA Bot',
-            userAvatarInitials: 'User'
-          }, document.getElementById("bot"));
+            {
+               directLine: window.WebChat.createDirectLine({
+                  token: 'WpkHJu1p8Rg.07Q3lh7UpSXmNV8hGUJDZHDEN3h1G4S82wNqlhxw2tA'
+               }),
+               userID: myssid,
+               username: myfname,
+               locale: 'en-US',
+               botAvatarInitials: 'WC',
+               userAvatarInitials: 'WW'
+            },, document.getElementById("bot"));
 
         </script>
 
